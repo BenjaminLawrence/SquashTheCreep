@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732691011
+::res://::1732702127
 default_bus_layout.tres::AudioBusLayout::-1::1732685836::0::1::::<><>::
 default_env.tres::Environment::-1::1732685836::0::1::::<><>::
 icon.png::CompressedTexture2D::6989048488848245953::1732685319::1732685911::1::::<><>::
+main.tscn::PackedScene::2460437690824982321::1732692584::0::1::::<><>::
 ::res://art/::1732685911
 body.material::StandardMaterial3D::-1::1732685319::0::1::::<><>::
 eye.material::StandardMaterial3D::-1::1732685319::0::1::::<><>::
