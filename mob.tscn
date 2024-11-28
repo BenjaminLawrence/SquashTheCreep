@@ -1,3 +1,18 @@
-[gd_scene format=3 uid="uid://dryidj81otvff"]
+[gd_scene load_steps=3 format=3 uid="uid://dryidj81otvff"]
+
+[ext_resource type="PackedScene" uid="uid://cagbmbpmd1div" path="res://art/mob.glb" id="1_v254i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7orc4"]
+size = Vector3(1.5, 0.5, 2)
 
 [node name="Mob" type="CharacterBody3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Character" parent="Pivot" instance=ExtResource("1_v254i")]
+
+[node name="CollisionShape" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_7orc4")
+
+[node name="VisibilityNotifier" type="VisibleOnScreenNotifier3D" parent="."]
+aabb = AABB(-1.25, -0.25, -1.5, 2.5, 1.5, 3.5)
